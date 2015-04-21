@@ -2,13 +2,13 @@
   <div class="row" style="margin-bottom: 75px;"></div>
   <div class="row">
 
-    <div class="col-lg-8">
+    <div class="col-lg-8 col-md-8">
       <div class="page-header">
         <h1><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;<span translate>Shopping Cart - Xur's Tower</span> <br><small><span translate>Estimated Shipping Date:</span> {{i18n.today | date:'medium'}}</small></h1>
       </div>
     </div>
 
-    <div class="col-lg-4">
+    <div class="col-lg-4 col-md-4">
       <div class="dropdown pull-right">
         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
           {{ 'Select Language' | translate }}
@@ -54,13 +54,13 @@
 
     <div class="col-lg-12">
       <hr>
-      <div class="col-lg-2 col-lg-offset-9">
+      <div class="col-lg-2 col-lg-offset-9 col-md-2 col-md-offset-9">
         <p><strong translate>Total Items Sold:</strong> </p>
         <p><strong translate>Subtotal:</strong> </p>
         <p><strong translate>Estimated Taxes:</strong> </p>
         <p><strong translate>Estimated Grand Total:</strong> </p>
       </div>
-      <div class="col-lg-1 text-right">
+      <div class="col-lg-1 col-md-1 text-right">
         <p>{{i18n.totalItems | number}}</p>
         <p>{{i18n.subtotal | currency}}</p>
         <p>{{i18n.estimatedTax | currency}}</p>
