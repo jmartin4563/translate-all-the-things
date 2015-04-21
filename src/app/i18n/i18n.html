@@ -1,0 +1,80 @@
+<div class="container-fluid">
+  <div class="row" style="margin-bottom: 75px;"></div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="page-header">
+        <h1>i18n?? l10n??</h1>
+      </div>
+
+      <ul class="row">
+        <li class="col-lg-4">
+          <h4>Aren't Acronymns <em>fun</em>?</h4>
+          <p>Internationalization - i18n</p>
+          <p>Localization - l10n</p>
+          <p>Globalization - g11n?!</p>
+        </li>
+        <li class="col-lg-8">
+          <h4>You keep saying that word...</h4>
+          <p>Internationalization is the task of making an application adaptable to various regions / languages <em>without design or engineering changes</em>.</p>
+          <p>Localization is the process of adapting internationalized applications for a specific language</p>
+          <p>i18n is something that you, the developer do, while l10n is something that a translator does</p>
+          <p>Think of it as i18n is what loads a language pack, while l10n is the language pack itself</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="page-header">
+        <h1>But really, what does that mean?</h1>
+      </div>
+      <ul class="row">
+        <li class="col-lg-4">
+          <h4>Text</h4>
+          <p>Content Checking (Tone)</p>
+          <p>String Literal Transitions</p>
+          <p>Pluralization</p>
+          <p>Sorting</p>
+          <p>RTL Content Display</p>
+          <p>Accessibility</p>
+        </li>
+        <li class="col-lg-4">
+          <h4>Numbers / Money</h4>
+          <p>Comma Separator / Decimal Separator</p>
+          <p>Currency Conversion</p>
+          <p>Metric vs. Imperial Measurements</p>
+        </li>
+        <li class="col-lg-4">
+          <h4>Dates / Times</h4>
+          <p>Date Formats</p>
+          <p>12 Hour Clock vs. 24 Hour Clock</p>
+          <p>Timezones</p>
+          <p>Start of Week</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="page-header">
+        <h1>Cool, so how do I do all that?</h1>
+      </div>
+      <ul class="row">
+        <li class="col-lg-6">
+          <h4>Server Side i18n</h4>
+          <p>Compile a full application per locale/region required</p>
+          <p>Changing locales requires a full page reload</p>
+          <p>Extra server logic to serve appropriate version of application</p>
+          <p>Serve only <em>exactly</em> what you need</p>
+          <p>Write it yourself of integrate with existing service (like CMS)</p>
+        </li>
+        <li class="col-lg-6">
+          <h4>Client Side i18n</h4>
+          <p>Application and language packs are loaded / cached on initial load</p>
+          <p>Switch languages on the fly without page reload</p>
+          <p>Additional logic / markup required in application code</p>
+          <p>Lots of 3rd Party helper libraries out there (especially with Angular)</p>
+          <p>Full disclosure: This is the approach we've taken at Message Systems</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
