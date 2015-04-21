@@ -124,7 +124,7 @@ msgstr "épine"
 
 #: demo/demo.html:58
 msgid "Total Items Sold:"
-msgstr "Total Items Sold:"
+msgstr "Nombre total d'articles vendus:"
 
 #: demo/demo.controller.js:23
 msgid "You cannot shake the feeling that this is less a weapon than a doorway."
