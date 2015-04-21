@@ -68,6 +68,14 @@ gulp.task('images', function () {
     .pipe(gulp.dest(paths.dist + '/assets/images/'));
 });
 
+gulp.task('assets', function() {
+  console.log(paths.src);
+  return gulp.src([
+        'bower_components/**'
+    ])
+    .pipe(gulp.dest(paths.dist + '/bower_components'));
+});
+
 gulp.task('fonts', function () {
   return gulp.src($.mainBowerFiles())
     .pipe($.filter('**/*.{eot,svg,ttf,woff}'))
@@ -84,4 +92,4 @@ gulp.task('clean', function (done) {
   $.del([paths.dist + '/', paths.tmp + '/'], done);
 });
 
-gulp.task('build', ['html', 'images', 'fonts', 'misc']);
+gulp.task('build', ['html', 'images', 'fonts', 'misc', 'assets']);
