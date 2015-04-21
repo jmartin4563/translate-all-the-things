@@ -1,0 +1,67 @@
+<div class="container-fluid" ng-controller="I18nCtrl as i18n">
+  <div class="row" style="margin-bottom: 75px;"></div>
+  <div class="row">
+
+    <div class="col-lg-10">
+      <div class="page-header">
+        <h1><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;<span translate>Shopping Cart - Xur's Tower</span> <br><small><span translate>Estimated Shipping Date:</span> {{i18n.today | date:'medium'}}</small></h1>
+      </div>
+    </div>
+
+    <div class="col-lg-2">
+      <select>
+        <option translate>English</option>
+        <option translate>French</option>
+        <option translate>Spanish</option>
+        <option translate>L337</option>
+      </select>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="media" ng-repeat="item in i18n.items">
+        <div class="media-left media-middle">
+          <img class="media-object" ng-src="{{item.image}}" height="64" width="64" />
+        </div>
+        <div class="media-body">
+          <div class="row">
+            <div class="col-lg-4">
+              <h4 class="media-heading">{{item.name | translate}}</h4>
+            </div>
+            <div class="col-lg-4">
+              <span><strong translate>Price:</strong> {{item.price | currency}}</span>
+            </div>
+            <div class="col-lg-4 form-inline">
+              <div class="form-group form-group-sm">
+                <label class="control-label" translate>Quantity: </label>
+                <input type="text" class="form-control text-right" ng-model="item.quantity" />
+              </div>
+            </div>
+            <div class="col-lg-12">
+              <span>{{item.description | translate}}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-12">
+      <hr>
+      <div class="col-lg-2 col-lg-offset-9">
+        <p><strong translate>Total Items Sold:</strong> </p>
+        <p><strong translate>Subtotal:</strong> </p>
+        <p><strong translate>Estimated Taxes:</strong> </p>
+        <p><strong translate>Estimated Grand Total:</strong> </p>
+      </div>
+      <div class="col-lg-1 text-right">
+        <p>{{i18n.totalItems | number}}</p>
+        <p>{{i18n.subtotal | currency}}</p>
+        <p>{{i18n.estimatedTax | currency}}</p>
+        <p>{{i18n.estimatedTotal | currency}}</p>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <button class="btn btn-primary pull-right" translate>Ready to Checkout</button>
+      <button class="btn btn-default" translate>Cancel Order</button>
+    </div>
+  </div>
+</div>

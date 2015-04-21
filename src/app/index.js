@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngI18nDemo', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap'])
+angular.module('ngI18nDemo', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap', 'gettext'])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {
