@@ -1,20 +1,28 @@
-<div class="container-fluid" ng-controller="I18nCtrl as i18n">
+<div class="container-fluid" ng-controller="DemoCtrl as i18n">
   <div class="row" style="margin-bottom: 75px;"></div>
   <div class="row">
 
-    <div class="col-lg-10">
+    <div class="col-lg-8">
       <div class="page-header">
         <h1><span class="glyphicon glyphicon-shopping-cart"></span>&nbsp;<span translate>Shopping Cart - Xur's Tower</span> <br><small><span translate>Estimated Shipping Date:</span> {{i18n.today | date:'medium'}}</small></h1>
       </div>
     </div>
 
-    <div class="col-lg-2">
-      <select>
-        <option translate>English</option>
-        <option translate>French</option>
-        <option translate>Spanish</option>
-        <option translate>L337</option>
-      </select>
+    <div class="col-lg-4">
+      <div class="dropdown pull-right">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+          {{ 'Select Language' | translate }}
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+          <li role="presentation" ng-class="{'active': i18n.currentLang === 'es'}"><a href="/#/demo" role="menuitem" tabindex="-1" translate ng-click="i18n.changeLang('es')">Spanish</a></li>
+          <li role="presentation" ng-class="{'active': i18n.currentLang === 'en-US'}"><a href="/#/demo" role="menuitem" tabindex="-1" translate ng-click="i18n.changeLang('en-US')">English</a></li>
+          <li role="presentation" ng-class="{'active': i18n.currentLang === 'fr-FR'}"><a href="/#/demo" role="menuitem" tabindex="-1" translate ng-click="i18n.changeLang('fr-FR')">French</a></li>
+          <li role="presentation" class="divider"></li>
+          <li role="presentation" ng-class="{'active': i18n.currentLang === 'oink'}"><a href="/#/demo" role="menuitem" tabindex="-1" translate ng-click="i18n.changeLang('oink')">Pig Latin</a></li>
+          <li role="presentation" ng-class="{'active': i18n.currentLang === 'leet'}"><a href="/#/demo" role="menuitem" tabindex="-1" translate ng-click="i18n.changeLang('leet')">L337</a></li>
+        </ul>
+      </div>
     </div>
 
     <div class="col-lg-12">
@@ -31,7 +39,7 @@
               <span><strong translate>Price:</strong> {{item.price | currency}}</span>
             </div>
             <div class="col-lg-4 form-inline">
-              <div class="form-group form-group-sm">
+              <div class="form-group form-group-sm pull-right">
                 <label class="control-label" translate>Quantity: </label>
                 <input type="text" class="form-control text-right" ng-model="item.quantity" />
               </div>

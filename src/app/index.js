@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('ngI18nDemo', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap', 'gettext'])
-  .config(function ($stateProvider, $urlRouterProvider) {
+angular.module('ngI18nDemo', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ui.router', 'ui.bootstrap', 'gettext', 'tmh.dynamicLocale'])
+  .config(function ($stateProvider, $urlRouterProvider, tmhDynamicLocaleProvider) {
     $stateProvider
       .state('home', {
         url: '/',
@@ -45,5 +45,5 @@ angular.module('ngI18nDemo', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize',
       });
 
     $urlRouterProvider.otherwise('/');
-  })
-;
+    tmhDynamicLocaleProvider.localeLocationPattern('bower_components/angular-i18n/angular-locale_{{locale}}.js');
+  });
