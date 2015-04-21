@@ -8,8 +8,8 @@ msgstr ""
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
-"X-Generator: Poedit 1.6.4\n"
 "Language: leet\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #: demo/demo.controller.js:37
 msgid ""
@@ -126,7 +126,7 @@ msgstr "t07@l I73m$ $0ld:"
 #: demo/demo.controller.js:23
 msgid "You cannot shake the feeling that this is less a weapon than a doorway."
 msgstr ""
-"You cannot shake the feeling that this is less a weapon than a doorway."
+"y0U C@Nn07 5hak3 7H3 F33linG 7H@t 7hi$ I5 le55 @ w3@P0n 7h@n @ D00RW@Y."
 
 #: navbar/navbar.html:15
 msgid "i18n/l10n/wtfbbq"
