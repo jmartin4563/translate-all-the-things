@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.4\n"
+"Language: leet\n"
+
+#: demo/demo.controller.js:37
+msgid ""
+"\"If you believe your weapon wants to murder all existence, then so it will."
+"\" - Toland the Shattered"
+msgstr ""
+"\"If you 83li3V3 Y0UR W3@pon w@N7s 70 muRd3R @LL 3Xis7eNC3, 7h3N $o i7 WiLl."
+"\" - t0L@nd tH3 sh@7t3R3d"
+
+#: demo/demo.controller.js:44
+msgid ""
+"\"To rend one's enemies is to see them not as equals, but objects--hollow of "
+"spirit and meaning.\" -13th Understanding, 7th Book of Sorrow"
+msgstr ""
+"\"7o r3ND 0ne'$ 3NemI3s I$ 70 533 7h3m n07 @$ 3Qu@L$, 8U7 obj3C7$--H0lL0W 0F "
+"$pirI7 @nd M3@nInG.\" -137H uNd3r$7anDinG, 77H 800K 0f 50rr0W"
+
+#: navbar/navbar.html:14
+msgid "About the Speaker"
+msgstr "@8oU7 7h3 5Pe@K3r"
+
+#: demo/demo.controller.js:35
+msgid "Bad Juju"
+msgstr "8ad jUju"
+
+#: demo/demo.html:72
+msgid "Cancel Order"
+msgstr "c@nCel 0rDeR"
+
+#: navbar/navbar.html:17
+msgid "Demo"
+msgstr "d3M0"
+
+#: demo/demo.html:19
+msgid "English"
+msgstr "3nglIsh"
+
+#: demo/demo.html:61
+msgid "Estimated Grand Total:"
+msgstr "357im@73d gR@nd 707@l:"
+
+#: demo/demo.html:7
+msgid "Estimated Shipping Date:"
+msgstr "3$tiM@73d 5hIpping D@t3:"
+
+#: demo/demo.html:60
+msgid "Estimated Taxes:"
+msgstr "35tIMa73d 7@X35:"
+
+#: demo/demo.html:20
+msgid "French"
+msgstr "fr3nch"
+
+#: demo/demo.controller.js:30
+msgid "Good fighters have contingency plans. Great fighters don't need them."
+msgstr "G00d fIgh73Rs h@Ve con7iNG3NCY PL@N5. gr3@t figH73R$ d0n'7 n33D 7h3M."
+
+#: demo/demo.html:23
+msgid "L337"
+msgstr "L337"
+
+#: navbar/navbar.html:16
+msgid "Libraries"
+msgstr "Li8Rari35"
+
+#: demo/demo.html:22
+msgid "Pig Latin"
+msgstr "PIg latIn"
+
+#: demo/demo.controller.js:28
+msgid "Plan C"
+msgstr "Pl@n C"
+
+#: demo/demo.controller.js:21
+msgid "Pocket Infinity"
+msgstr "p0cK37 INFINI7y"
+
+#: demo/demo.html:39
+msgid "Price:"
+msgstr "pric3:"
+
+#: demo/demo.html:43
+msgid "Quantity:"
+msgstr "QU@N7i7Y:"
+
+#: demo/demo.html:71
+msgid "Ready to Checkout"
+msgstr "R3@dy 7o CH3cKoU7"
+
+#: demo/demo.html:14
+msgid "Select Language"
+msgstr "53l3c7 l@ngU@G3"
+
+#: demo/demo.html:7
+msgid "Shopping Cart - Xur's Tower"
+msgstr "5h0pPIng c@r7 - XUR'5 70Wer"
+
+#: demo/demo.html:18
+msgid "Spanish"
+msgstr "$p@nI5h"
+
+#: demo/demo.html:59
+msgid "Subtotal:"
+msgstr "5u8707@l:"
+
+#: demo/demo.controller.js:42
+msgid "Thorn"
+msgstr "7H0rn"
+
+#: demo/demo.html:58
+msgid "Total Items Sold:"
+msgstr "t07@l I73m$ $0ld:"
+
+#: demo/demo.controller.js:23
+msgid "You cannot shake the feeling that this is less a weapon than a doorway."
+msgstr ""
+"You cannot shake the feeling that this is less a weapon than a doorway."
+
+#: navbar/navbar.html:15
+msgid "i18n/l10n/wtfbbq"
+msgstr "I18n/l10n/w7f8bQ"

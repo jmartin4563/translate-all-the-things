@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.6.4\n"
+"Language: oink\n"
+
+#: demo/demo.controller.js:37
+msgid ""
+"\"If you believe your weapon wants to murder all existence, then so it will."
+"\" - Toland the Shattered"
+msgstr ""
+"\"Ifway ouyay elievebay ouryay eaponway antsway otay urdermay allway "
+"existenceway, enthay osay itway illway.\" - Olandtay ethay Atteredshay"
+
+#: demo/demo.controller.js:44
+msgid ""
+"\"To rend one's enemies is to see them not as equals, but objects--hollow of "
+"spirit and meaning.\" -13th Understanding, 7th Book of Sorrow"
+msgstr ""
+"\"Otay endray one'sway enemiesway isway otay eesay emthay otnay asway "
+"equalsway, utbay objectsway--ollowhay ofway iritspay andway eaningmay.\" "
+"-13thay Understandingway, 7thay Ookbay ofway Orrowsay"
+
+#: navbar/navbar.html:14
+msgid "About the Speaker"
+msgstr "Aboutway ethay Eakerspay"
+
+#: demo/demo.controller.js:35
+msgid "Bad Juju"
+msgstr "Adbay Ujujay"
+
+#: demo/demo.html:72
+msgid "Cancel Order"
+msgstr "Ancelcay Orderway"
+
+#: navbar/navbar.html:17
+msgid "Demo"
+msgstr "Emoday"
+
+#: demo/demo.html:19
+msgid "English"
+msgstr "Englishway"
+
+#: demo/demo.html:61
+msgid "Estimated Grand Total:"
+msgstr "Estimatedway Andgray Otaltay:"
+
+#: demo/demo.html:7
+msgid "Estimated Shipping Date:"
+msgstr "Estimatedway Ippingshay Ateday:"
+
+#: demo/demo.html:60
+msgid "Estimated Taxes:"
+msgstr "Estimatedway Axestay:"
+
+#: demo/demo.html:20
+msgid "French"
+msgstr "Enchfray"
+
+#: demo/demo.controller.js:30
+msgid "Good fighters have contingency plans. Great fighters don't need them."
+msgstr ""
+"Oodgay ightersfay avehay ontingencycay ansplay. Eatgray ightersfay on'tday "
+"eednay emthay."
+
+#: demo/demo.html:23
+msgid "L337"
+msgstr "LAY337"
+
+#: navbar/navbar.html:16
+msgid "Libraries"
+msgstr "Ibrarieslay"
+
+#: demo/demo.html:22
+msgid "Pig Latin"
+msgstr "Igpay Atinlay"
+
+#: demo/demo.controller.js:28
+msgid "Plan C"
+msgstr "Anplay CAY"
+
+#: demo/demo.controller.js:21
+msgid "Pocket Infinity"
+msgstr "Ocketpay Infinityway"
+
+#: demo/demo.html:39
+msgid "Price:"
+msgstr "Icepray:"
+
+#: demo/demo.html:43
+msgid "Quantity:"
+msgstr "Antityquay:"
+
+#: demo/demo.html:71
+msgid "Ready to Checkout"
+msgstr "Eadyray otay Eckoutchay"
+
+#: demo/demo.html:14
+msgid "Select Language"
+msgstr "Electsay Anguagelay"
+
+#: demo/demo.html:7
+msgid "Shopping Cart - Xur's Tower"
+msgstr "Oppingshay Artcay - Ur'sxay Owertay"
+
+#: demo/demo.html:18
+msgid "Spanish"
+msgstr "Anishspay"
+
+#: demo/demo.html:59
+msgid "Subtotal:"
+msgstr "Ubtotalsay:"
+
+#: demo/demo.controller.js:42
+msgid "Thorn"
+msgstr "Ornthay"
+
+#: demo/demo.html:58
+msgid "Total Items Sold:"
+msgstr "Otaltay Itemsway Oldsay:"
+
+#: demo/demo.controller.js:23
+msgid "You cannot shake the feeling that this is less a weapon than a doorway."
+msgstr ""
+"Ouyay annotcay akeshay ethay eelingfay atthay isthay isway esslay away "
+"eaponway anthay away oorwayday."
+
+#: navbar/navbar.html:15
+msgid "i18n/l10n/wtfbbq"
+msgstr "iway18nay/lay10nay/wtfbbqay"
