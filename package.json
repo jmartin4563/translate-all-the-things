@@ -39,7 +39,8 @@
     "http-proxy": "~1.7.0",
     "chalk": "~0.5.1",
     "protractor": "~1.4.0",
-    "uglify-save-license": "~0.4.1"
+    "uglify-save-license": "~0.4.1",
+    "gulp-angular-gettext": "^2.1.0"
   },
   "engines": {
     "node": ">=0.10.0"
